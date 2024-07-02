@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  background-color: #fff;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.input-area{
+  margin-bottom: 8px;
+}
+.task-area{
+  border: 1px solid lightgray;
+}
+.task-tabs{
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+.task-tabs div {
+  padding: 1em;
+}
+.tab-title {
+  width: 80px;
+  text-align: center;
+}
+#under-line{
+  height: 4px;
+  background-color: pink;
+  position: absolute;
+  width: 80px;
+  left: 0;
+  top: 52px;
+  padding: 0;
+}
+.task{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+}
+.task p {
+  height: 40px;
+  line-height: 40px;
+  vertical-align: center;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  top: 50%;
+  transform: translateY(8px);
+}
+button{
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+#check{
+  background-color: green;
+}
+#delete{
+  background-color: crimson;
+}
+#add-item{
+  background-color: skyblue;
+}
