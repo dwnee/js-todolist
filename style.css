@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
 body{
   margin: 0;
   background-image: url("images/background.jpg");
@@ -5,12 +7,21 @@ body{
   background-size: cover;
 }
 .container{
+  padding: 30px;
   background-color: #fff;
   min-height: 100vh;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.container > h1{
+  padding-bottom: 30px;
+  font-family: "Margarine", sans-serif;
+}
 .input-area{
   margin-bottom: 8px;
+}
+.input-area > input{
+  height: 60px;
+  border: 1px solid #ccc;
 }
 .task-area{
   border: 1px solid lightgray;
@@ -63,9 +74,18 @@ button{
 #check{
   background-color: green;
 }
+#revert{
+  background-color: cadetblue;
+}
 #delete{
   background-color: crimson;
 }
 #add-item{
   background-color: skyblue;
+}
+.task-done{
+  text-decoration: line-through;
+}
+.task-done-bg{
+  background-color: gray;
 }
