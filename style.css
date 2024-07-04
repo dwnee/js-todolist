@@ -37,6 +37,8 @@ body{
 .tab-title {
   width: 80px;
   text-align: center;
+  cursor: pointer;
+  left:0;
 }
 #under-line{
   height: 4px;
@@ -89,3 +91,14 @@ button{
 .task-done-bg{
   background-color: gray;
 }
+#progressing {
+
+}
+
+
+@media all and (min-width:300px) and (max-width:767px) {
+  .container{
+    background: linear-gradient(#e66465, #9198e5);
+  }
+} 
+
